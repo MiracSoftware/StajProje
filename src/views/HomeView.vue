@@ -1,19 +1,18 @@
 <template>
-  <div class="w-full overflow-x-hidden">
+  <div class="w-full min-h-screen overflow-x-hidden">
     <Navbar />
-
-    <main class="flex-grow">
-      <HeroSection />
-      <AboutSection />
-      <ProgramsSection />
-      <FeaturesSection />
-      <EventSection />
-      <CommentSection />
-      <LatestNewsSection />
-      <GallerySection />
-      <AdresSection />
-      <FooterSection />
+    <main class="w-full">
+      <HeroSection id="home" />
+      <AboutSection id="about" />
+      <ProgramsSection id="programs" />
+      <FeaturesSection id="features" />
+      <EventSection id="events" />
+      <CommentSection id="comments" />
+      <LatestNewsSection id="news" />
+      <GallerySection id="gallery" />
+      <AdresSection id="contact" />
     </main>
+    <FooterSection />
   </div>
 </template>
 
@@ -30,3 +29,9 @@ import LatestNewsSection from "../components/LatestNewsSection.vue";
 import Navbar from "../components/Navbar.vue";
 import ProgramsSection from "../components/ProgramsSection.vue";
 </script>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
