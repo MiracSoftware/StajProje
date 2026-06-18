@@ -3,7 +3,7 @@
     class="flex justify-between items-center px-16 py-6 bg-white shadow-sm font-bold"
   >
     <div class="flex items-center gap-2">
-      <img src="../assets/images/logo-81x119.png" class="w-8" />
+      <img src="../assets/images/logo.png" class="w-8" />
       <span class="text-xl">Kids Tree</span>
     </div>
     <div class="hidden md:flex gap-8 text-sm text-gray-700">

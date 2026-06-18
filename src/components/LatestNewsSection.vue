@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-import { styleText } from 'util';
+
 
 const newsList = [
   {
