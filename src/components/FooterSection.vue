@@ -37,7 +37,7 @@
 </template>
 
 <script setup>
-// Yukarı kaydırma fonksiyonu
+
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
