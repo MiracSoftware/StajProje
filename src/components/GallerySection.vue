@@ -22,7 +22,6 @@
 </template>
 
 <script setup>
-// Görsel yollarını projedeki assets klasörüne göre düzenle
 const galleryImages = [
   "/src/assets/images/orn-4.jpg",
   "/src/assets/images/orn-1.jpg",
