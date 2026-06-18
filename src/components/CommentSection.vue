@@ -44,7 +44,6 @@
 <script setup>
 import { computed, ref } from "vue";
 
-// Yorum verileri (İstediğin kullanıcı fotoğraflarını buraya ekleyebilirsin)
 const comments = [
   {
     quote:
@@ -63,12 +62,11 @@ const comments = [
 ];
 
 const currentPage = ref(0);
-const totalPages = Math.ceil(comments.length / 1); // 1 yorum / sayfa
+const totalPages = Math.ceil(comments.length / 1);
 const currentComments = computed(() => comments);
 </script>
 
 <style scoped>
-/* Kayma animasyonu */
 .slide-enter-active,
 .slide-leave-active {
   transition: all 0.5s ease;
