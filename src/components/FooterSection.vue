@@ -44,7 +44,6 @@ const scrollToTop = () => {
 </script>
 
 <style scoped>
-/* Font Awesome CDN index.html içine eklenmelidir */
 .social-icon {
   width: 45px;
   height: 45px;
@@ -52,8 +51,8 @@ const scrollToTop = () => {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: #f3f4f6; /* Gray-100 */
-  color: #6b7280; /* Gray-500 */
+  background-color: #f3f4f6; 
+  color: #6b7280;
   transition: all 0.3s ease;
 }
 
