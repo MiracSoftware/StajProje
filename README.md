@@ -1,5 +1,26 @@
-# Vue 3 + TypeScript + Vite
+# Kids Tree - Staj Projesi | Sirius AI
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Modern ve kullanıcı dostu bir eğitim platformunun basit bir ana sayfası.
+Çocuk yuvası, aile yorumları gibi bir çok içeriği içinde barındıran, Tailwind CSS ve Vue.js kütüphaneleri kullanılarak geliştirilmiş taslak bir web projesi.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Kullanılan teknolojiler
+Vue.js 3 - Proje parçaları (Composition API)
+Tailwind CSS - Tasarım
+FontAwesome - İkonlar
+Vite - Build Aracı
+
+Kurulum Adımları
+Projeyi bilgisayarınıza kurmak ve çalıştırmak için şu adımları izleyin:
+
+Projeyi klonlayın: gitclone <https://github.com/MiracSoftware/StajProje>
+cd StajProje
+
+2. Gerekli paketleri indirin: npm install
+
+Çalıştırma Komutları
+Geliştirme sunucusu için: npm run dev
+Projeyi yayına almak için: npm run build
+
+Hakkında
+Bu proje, Sirius AI şirketi tarafından İsmail Miraç Koca adlı öğrenciye 1 haftalık süre ile verilmiş olup, çocuk odaklı eğitim kurumları için tasarlanmış bir web arayüzüdür.
+Mobile duyarlı yapısı ve modern UI düzeni ile tüm cihazlarda sorunsuz çalıştırılabilir.

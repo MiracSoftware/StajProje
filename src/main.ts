@@ -1,5 +1,6 @@
-import { createApp } from 'vue'
-import './style.css' // Tailwind buradaki import ile devreye girer
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
+import "./style.css"; // Tailwind kütüphanesi
 
-createApp(App).mount('#app')
+createApp(App).use(router).mount("#app");
